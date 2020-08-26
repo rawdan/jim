@@ -3,7 +3,8 @@ module Api
     class WorkoutsController < ApplicationController
 
       def show
-
+        @workout = {}
+        render json: @workout
       end
     end
   end
